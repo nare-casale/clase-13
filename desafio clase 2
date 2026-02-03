@@ -1,0 +1,17 @@
+num1 = (int(input("ingrese el primer numero")))
+num2 = (int(input("ingrese el segundo numero")))
+
+suma = num1 + num2
+print(f"{suma}")
+
+resta = num1 - num2
+print(f"{resta}")
+
+multiplicacion = num1 * num2
+print(f"{multiplicacion}")
+
+if num1>num2:
+  print(f"el mayor es {num1}")
+
+else: num1<num2
+print(f"el mayor es {num2}")
