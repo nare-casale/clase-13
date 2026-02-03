@@ -1,0 +1,29 @@
+num = int(input("ingrese un numero"))
+
+def es_par(num):
+  if num / 2 == 0:
+   return True
+
+  else:
+   return False
+
+print(f"{es_par(num)}")
+
+for i in range(11):
+ print(f"num{i} es:,{num*i}")
+
+num_a = int(input("ingrese el numero A"))
+num_b = int(input("ingrese el numero B"))
+num_c = int(input("ingrese el numero C"))
+
+def mayor(num_a,num_b,num_c):
+ if num_a >= num_b and num_a >= num_c:
+  return num_a
+
+ elif num_b >= num_c:
+  return num_b
+
+ else:
+  return num_c
+
+print(f"El mayor es: {mayor(num_a ,num_b, num_c)}")
