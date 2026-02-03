@@ -1,0 +1,5 @@
+num = int(input("ingrese un numero para ver su tabla de multiplicar:"))
+
+print("la tabla de multiplos de su numero elegido es:")
+for i in range(11):
+ print(f"num*{i} es; {num*i}")
